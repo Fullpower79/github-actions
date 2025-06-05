@@ -6,7 +6,7 @@ jobs:
       steps:
         - name: Checkout Code
           uses: actions/checkout@v4.2.2
-        - name: Update Diagram
+        - name: Repo Visualizer
           uses: githubocto/repo-visualizer@0.9.1
           with:
-            artifact_name: diagram
+            artifact_name: "diagram"
