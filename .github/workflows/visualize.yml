@@ -9,5 +9,5 @@ jobs:
         - name: Repo Visualizer
           uses: githubocto/repo-visualizer@0.9.1
           with:
-            root_path: "/statische-website"
+            root_path: "statische-website"
             artifact_name: "diagram"
