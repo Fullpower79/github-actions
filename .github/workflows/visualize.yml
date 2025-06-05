@@ -11,3 +11,7 @@ jobs:
           with:
             root_path: "statische-website"
             artifact_name: "diagram"
+#   geeft deze error waar ik niets aan kan doen, de repository staat op public.
+#   remote: Permission to Fullpower79/github-actions.git denied to github-actions[bot].
+#   fatal: unable to access 'https://github.com/Fullpower79/github-actions/': The requested URL returned error: 403
+#   Error: Error: The process '/usr/bin/git' failed with exit code 128
